@@ -51,18 +51,16 @@ body {
 
 .hero-container {
     height: 600px;
-    width: 1440px;
+    width: 1158px;
 }
 
 .header-link {
     font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
     display: block;
-    margin-left: 156px;
+    margin-left: 126px;
     margin-right: 76px;
 
 }
@@ -92,7 +90,7 @@ body {
 }
 
 .mail-tell {
-    margin-right: 156px;
+    margin-right: 126px;
 }
 
 .mailto {
@@ -107,6 +105,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+    display: block;
+    margin-left: 126px;
+    margin-right: 76px;
+    
 
 }
 
@@ -144,7 +150,7 @@ body {
 .btn-light {
     min-width: 169px;
     height: 56px;
-    margin-left: 636px;
+    margin-left: 606px;
     margin-top: 256px;
     margin-bottom: 188px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -362,7 +368,6 @@ button {
     gap: 24px;
     width: 1128px;
     height: 104px;
-    margin-left: 156px;
 
 }
 
@@ -429,7 +434,7 @@ button {
 .footer-section {
     width: 264px;
     height: 112px;
-    margin-left: 156px;
+    margin-left: 126px;
 }
 
 .footer-title {
@@ -446,7 +451,7 @@ button {
 }
 
 .team {
-    width: 1440px;
+    width: 1158px;
     height: 732px;
 }
 
@@ -454,11 +459,11 @@ button {
     display: flex;
     padding-top: 72px;
     gap: 24px;
-    padding-left: 156px;
+    padding-left: 126px;
 }
 
 .title-team {
-    width: 1440px;
+    width: 1158px;
     height: 40px;
 }
 
@@ -518,7 +523,7 @@ button {
 .projects-img {
     text-align: center;
     padding-bottom: 48px;
-    margin-left: 156px;
+    margin-left: 126px;
     margin-top: 82px;
 
 }
@@ -540,5 +545,4 @@ button {
     display: flex;
     align-items: center;
     height: 72px;
-   padding: 0; 
 }
