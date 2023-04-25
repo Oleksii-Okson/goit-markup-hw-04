@@ -14,7 +14,7 @@
     --btn-cl: #4d5ae5;
     /* others */
     --indent: 24px;
---items: 3;
+    --items: 3;
 }
 
 .section {
@@ -42,6 +42,10 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -78,6 +82,7 @@ body {
 
 .header-adress-list {
     display: flex;
+    gap: 40px;
 }
 
 .contacts {
@@ -88,6 +93,7 @@ body {
 .header-nav {
     margin-right: auto;
     display: flex;
+    align-items: center;
 }
 
 /* доробити */
@@ -142,13 +148,15 @@ body {
 
 /* ???????? */
 .btn-light {
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     margin-left: 636px;
     margin-top: 256px;
     margin-bottom: 188px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    display: block;
+    border: none;
 }
 
 .btn:hover {
@@ -179,7 +187,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     text-align: center;
     margin-top: 188px;
@@ -198,6 +206,7 @@ body {
 
 .hero {
     background: var(--secondary-txt-cl);
+    padding: 188px 0;
 }
 
 .footer {
@@ -205,8 +214,6 @@ body {
 }
 
 .contacts,
-
-
 .header-studio:hover,
 .number:hover,
 .number:focus,
@@ -296,7 +303,9 @@ button {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
+    padding: 0 15px;
+
 
     margin: 0 auto;
 
@@ -351,13 +360,23 @@ button {
 
 }
 
+.title-job {
+    margin-bottom: 8px;
+}
+
 .title-section {
 
     width: 1128px;
     height: 40px;
-
-
+    margin-bottom: 72px;
 }
+
+.about,
+.aboutteam,
+.aboutdo {
+    padding: 120px 0;
+}
+
 
 .aboutdo-list {
     padding-top: 72px;
@@ -389,12 +408,23 @@ button {
     width: 264px;
     height: 104px;
 }
+.footer {
+    padding: 100px 0;
+
+}
+.footer-link {
+    display: inline-block; 
+    margin-bottom: 16px; 
+}
+
 .footer-section {
     width: 264px;
     height: 112px;
-    margin-left: 156px;}
+    margin-left: 156px;
+}
+
 .footer-title {
-    width: 264px;
+    max-width: 264px;
     height: 72px;
     margin-left: 156px;
     margin-top: 16px;
@@ -444,7 +474,7 @@ button {
     height: 48px;
     margin-left: 427px;
     margin-top: 96px;
-    
+
 
 }
 
@@ -455,14 +485,16 @@ button {
     flex-wrap: wrap;
     gap: var(--indent);
 }
+
 .card-set-item {
-    flex-basis: calc( (100% - var(--indent) * var(--items) - 1 ) / var(--items) );
-   
+    flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
+
 }
+
 .projects-img {
     text-align: center;
     padding-bottom: 48px;
     margin-left: 156px;
     margin-top: 82px;
-   
+
 }
