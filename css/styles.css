@@ -96,7 +96,6 @@ body {
     align-items: center;
 }
 
-/* доробити */
 .mail-tell {
     margin-right: 156px;
 }
@@ -113,7 +112,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    height: 24px;
+
 }
 
 .header-link:hover,
@@ -171,16 +170,18 @@ body {
 .btn-portfolio {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
-    border-radius: 4px; 
+    border-radius: 4px;
 
 }
+
 .btn-portfolio:hover {
-border: 1px solid transparent;
+    border: 1px solid transparent;
 }
+
 .btn-portfolio:focus {
     border: 1px solid transparent;
-    }
-    
+}
+
 
 .title {
     font-family: var(--primary-font);
@@ -315,13 +316,9 @@ button {
 }
 
 .container {
-    width: 1158px;
+    width: 1440px;
     padding: 0 15px;
-
-
     margin: 0 auto;
-
-
     outline: 2px solid red;
     outline-offset: -2px;
 }
@@ -350,7 +347,7 @@ button {
 
 .aboutteam-item {
     background-color: #FFFFFF;
-    border-radius: 0px 0px 4px 4px; 
+    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -415,20 +412,23 @@ button {
 }
 
 .aboutdo-container {
-    width: 1128px;
+    width: 1158px;
 }
 
 .subtitle-work {
     width: 264px;
     height: 104px;
 }
+
 .footer {
     padding: 100px 0;
 
 }
+
 .footer-link {
-    display: inline-block; 
-    margin-bottom: 16px; 
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 0;
 }
 
 .footer-section {
@@ -440,7 +440,7 @@ button {
 .footer-title {
     max-width: 264px;
     height: 72px;
-    margin-left: 156px;
+    margin-left: 0;
     margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
@@ -466,6 +466,7 @@ button {
     width: 1440px;
     height: 40px;
 }
+
 .title-teams {
     margin-bottom: 8px;
 }
@@ -491,7 +492,7 @@ button {
     height: 48px;
     margin-left: 427px;
     margin-top: 96px;
-    justify-content: center; 
+    justify-content: center;
     margin-bottom: 72px;
 
 
@@ -503,18 +504,19 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
-    row-gap: 48px; 
+    row-gap: 48px;
 }
 
 .card-set-item {
     flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
-    width: calc((100% - 48px) / 3); 
+    width: calc((100% - 48px) / 3);
 
 }
+
 .card-set-container {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc; 
-    border-top: none; 
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 
@@ -525,6 +527,7 @@ button {
     margin-top: 82px;
 
 }
+
 .name {
     padding: 32px 16px;
 
@@ -534,6 +537,7 @@ button {
     padding: 96px 0 120px;
 
 }
+
 .title-card {
     margin-bottom: 8px
 }
