@@ -338,6 +338,8 @@ button {
 
 .aboutteam-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px; 
 }
 
 .contacts:hover {
@@ -497,4 +499,8 @@ button {
     margin-left: 156px;
     margin-top: 82px;
 
+}
+.name {
+    padding: 32px 16px;
+    
 }
