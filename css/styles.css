@@ -351,6 +351,7 @@ button {
 .aboutteam-item {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px; 
+    width: calc((100% - 72px) / 4);
 }
 
 .contacts:hover {
@@ -528,9 +529,7 @@ button {
     padding: 32px 16px;
 
 }
-.team-name {
-    width: calc((100% - 72px) / 4);
-}
+
 .portfolio-projects {
     padding: 96px 0 120px;
 
