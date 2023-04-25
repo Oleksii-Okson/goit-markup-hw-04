@@ -48,11 +48,6 @@ body {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-    display: flex;
-    align-items: center;
-    height: 72px;
-}
 
 .hero-container {
     height: 600px;
@@ -316,7 +311,7 @@ button {
 }
 
 .container {
-    width: 1440px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
     outline: 2px solid red;
@@ -540,4 +535,10 @@ button {
 
 .title-card {
     margin-bottom: 8px
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 72px;
+   padding: 0; 
 }
