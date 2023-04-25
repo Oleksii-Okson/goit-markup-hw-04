@@ -152,6 +152,8 @@ body {
     display: block;
     border: none;
     margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
 }
 
 .btn:hover {
@@ -200,8 +202,6 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
-    min-width: 169px;
-    height: 56px;
 }
 
 .title-section {
