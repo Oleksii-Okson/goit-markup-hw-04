@@ -502,10 +502,18 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: var(--indent);
+    row-gap: 48px; 
 }
 
 .card-set-item {
     flex-basis: calc((100% - var(--indent) * var(--items) - 1) / var(--items));
+    width: calc((100% - 48px) / 3); 
+
+}
+.card-set-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
 
 }
 
@@ -526,4 +534,7 @@ button {
 .portfolio-projects {
     padding: 96px 0 120px;
 
+}
+.title-card {
+    margin-bottom: 8px
 }
