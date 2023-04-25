@@ -168,7 +168,19 @@ body {
     background-color: var(--focus-txt-btn);
 }
 
+.btn-portfolio {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px; 
 
+}
+.btn-portfolio:hover {
+border: 1px solid transparent;
+}
+.btn-portfolio:focus {
+    border: 1px solid transparent;
+    }
+    
 
 .title {
     font-family: var(--primary-font);
@@ -361,7 +373,7 @@ button {
 
 }
 
-.title-job {
+.title-jobs {
     margin-bottom: 8px;
 }
 
@@ -478,6 +490,8 @@ button {
     height: 48px;
     margin-left: 427px;
     margin-top: 96px;
+    justify-content: center; 
+    margin-bottom: 72px;
 
 
 }
@@ -508,4 +522,8 @@ button {
 }
 .team-name {
     width: calc((100% - 72px) / 4);
+}
+.portfolio-projects {
+    padding: 96px 0 120px;
+
 }
