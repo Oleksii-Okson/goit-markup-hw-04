@@ -81,6 +81,9 @@ body {
 .contacts {
     display: block;
     gap: 40px;
+    color: var(--secondary-txt-cl);
+    font-weight: 500;
+    padding: 24px 0;
 }
 
 .header-nav {
@@ -89,13 +92,9 @@ body {
     align-items: center;
 }
 
-.mail-tell {
-    margin-right: 126px;
-}
 
-.mailto {
-    margin-right: 40px;
-}
+
+
 
 .header-link {
     font-family: "Raleway", sans-serif;
@@ -109,7 +108,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
-    margin-left: 126px;
     margin-right: 76px;
 
 
@@ -194,7 +192,6 @@ body {
 }
 
 .title-light {
-    color: var(--light-txt-cl);
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
@@ -202,6 +199,8 @@ body {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
 }
 
 .title-section {
@@ -222,7 +221,6 @@ body {
     background: var(--secondary-txt-cl);
 }
 
-.contacts,
 .header-studio:hover,
 .number:hover,
 .number:focus,
@@ -289,8 +287,7 @@ body {
 
 .link {
     text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
 }
 
 h1,
@@ -383,10 +380,12 @@ button {
     padding: 120px 0;
 }
 
+.aboutdo {
+    padding-top: 0;
+}
+
 
 .aboutdo-list {
-    padding-top: 72px;
-    width: 1128px;
     display: flex;
     gap: 24px;
 }
@@ -404,10 +403,6 @@ button {
     display: flex;
 
 
-}
-
-.aboutdo-container {
-    width: 1158px;
 }
 
 .subtitle-work {
@@ -439,7 +434,6 @@ button {
 
 .team {
     width: 1158px;
-    height: 732px;
 }
 
 .aboutteam-list {
@@ -496,12 +490,6 @@ button {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
-}
-
-.projects-img {
-    padding-bottom: 48px;
-    margin-top: 82px;
 
 }
 
