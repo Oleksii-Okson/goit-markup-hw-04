@@ -12,6 +12,7 @@
     --focus-txt-btn: #404BBF;
     --body-cl: #FFFFFF;
     --btn-cl: #4d5ae5;
+    --customers-cl: #8e8f99;
     /* others */
     --indent: 24px;
     --items: 3;
@@ -361,7 +362,7 @@ button {
     padding: 0px;
     gap: 24px;
     width: 1128px;
-    height: 104px;
+    
 
 }
 
@@ -496,7 +497,8 @@ button {
 }
 
 .name {
-    padding: 32px 16px;
+    padding: 32px 0;
+  
 
 }
 
@@ -550,7 +552,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    width: 232px;
+    
 }
 
 .list {}
@@ -565,6 +567,10 @@ button {
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #404bbf;
 }
 
 .link {}
@@ -591,15 +597,19 @@ button {
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
+.customers-section {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 .customers {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-bottom: 128px;
 }
-
+.title-customes {
+    line-height: 1.1;
+}
 .customers-icons {
     display: flex;
     justify-content: center;
@@ -608,14 +618,28 @@ button {
     height: 88px;
     border-radius: 4px;
 }
+.customers-link {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    color: var(--customers-cl);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+
+}
+.customers-icons {
+    fill: currentColor;
+}
 
 .customers-link:hover {
-    color: #404BBF;
+    background-color: #404bbf;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .customers-link:focus {
-    color: #404BBF;
+    background-color: #404bbf;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
