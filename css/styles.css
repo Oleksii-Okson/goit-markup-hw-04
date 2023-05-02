@@ -658,9 +658,6 @@ button {
 /* footer */
 
 .footer-social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 208px;
     height: 80px;
 }
