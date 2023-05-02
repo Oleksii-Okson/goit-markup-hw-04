@@ -13,7 +13,7 @@
     --body-cl: #FFFFFF;
     --btn-cl: #4d5ae5;
     --customers-cl: #8e8f99;
-    --bgr-footer-cl:  #31d0aa;
+    --bgr-footer-cl: #31d0aa;
     /* others */
     --indent: 24px;
     --items: 3;
@@ -363,7 +363,7 @@ button {
     padding: 0px;
     gap: 24px;
     width: 1128px;
-    
+
 
 }
 
@@ -499,7 +499,7 @@ button {
 
 .name {
     padding: 32px 0;
-  
+
 
 }
 
@@ -528,7 +528,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -548,7 +548,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 24px;
-    
+
 }
 
 
@@ -566,11 +566,15 @@ button {
     background-color: #4D5AE5;
     border-radius: 50%;
 }
+
 .socials-link:hover,
 .socials-link:focus {
     background-color: #404bbf;
 }
 
+.aboutdo-item {
+    min-width: 264px;
+}
 
 .social-icons {
     fill: #F4F4FD;
@@ -588,25 +592,28 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 264px;
     height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
 }
+
 .customers-section {
-    padding-top: 120px; 
+    padding-top: 120px;
     padding-bottom: 120px;
 }
+
 .customers {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
+
 .title-customes {
     line-height: 1.1;
 }
+
 .customers-icons {
     display: flex;
     justify-content: center;
@@ -615,9 +622,10 @@ button {
     height: 88px;
     border-radius: 4px;
 }
+
 .customers-link {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     justify-content: center;
     color: var(--customers-cl);
     width: 100%;
@@ -626,6 +634,7 @@ button {
     border-radius: 4px;
 
 }
+
 .customers-icons {
     fill: currentColor;
 }
@@ -655,28 +664,35 @@ button {
     width: 208px;
     height: 80px;
 }
+
 .footer-section {
     display: flex;
     align-items: baseline;
     gap: 120px;
 
 }
+
 .footer-name {
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--body-cl);
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
 
 }
+
 .footer-list {
     display: flex;
     gap: 16px;
+
 }
+
 .logo-paragraf {
     gap: 120px;
 }
+
 .socials-link-footer {
     display: flex;
     justify-content: center;
@@ -684,9 +700,11 @@ button {
     background-color: #4D5AE5;
     border-radius: 50%;
 }
+
 .socials-link-footer:hover {
     background-color: var(--bgr-footer-cl);
 }
+
 .socials-link-footer:focus {
     background-color: var(--bgr-footer-cl);
 }
@@ -703,11 +721,13 @@ button {
 .card-set-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .decoration {
     display: block;
 
 }
+
 .decoration:hover,
 .decoration:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
